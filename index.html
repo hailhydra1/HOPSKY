@@ -1,41 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!--============================= ICONS SCOUT =============================-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
     <!--============================= FONT =============================-->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!--============================= NAV START =============================-->
     <nav>
-            <div class="container nav__container">
-                <a href="index.html" class="nav__logo">HOPSKY</a>
-                <ul class="nav__items">
-                    <li><a href="blog.html">blog</a></li>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="services.html">services</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                    <li><a href="signin.html">signin</a></li>
-                    <li class="nav__profile">
-                        <div class="avatar">
-                            <img src="./images/avatar1.jpg" alt="pfp">
-                        </div>
-                        <ul>
-                            <li><a href="dashboard.html">Dashboard</a></li>
-                            <li><a href="logout.html">Logout</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <button id="open__nav-btn"> <i class="uil uil-bars"></i> </button>
-                <button id="close__nav-btn"> <i class="uil uil-multiply"></i> </button>
+      <div class="container nav__container">
+        <a href="index.html" class="nav__logo">HOPSKY</a>
+        <ul class="nav__items">
+          <li><a href="blog.html">blog</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="services.html">services</a></li>
+          <li><a href="contact.html">contact</a></li>
+          <li><a href="signin.html">signin</a></li>
+          <li class="nav__profile">
+            <div class="avatar">
+              <img src="./images/avatar1.jpg" alt="pfp" />
             </div>
+            <ul>
+              <li><a href="dashboard.html">Dashboard</a></li>
+              <li><a href="logout.html">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+        <button id="open_nav_btn"><i class="uil uil-bars"></i></button>
+        <button id="close_nav_btn"><i class="uil uil-multiply"></i></button>
+      </div>
     </nav>
     <!--============================= NAV END =============================-->
-</body>
+
+    <!--============================= FEATURED START =============================-->
+
+    <section class="featured">
+      <div class="container featured__container">
+        <div class="post__thumbnail">
+          <img src="./images/blog1.jpg" alt="" />
+        </div>
+        <div class="post__info">
+          <a href="" class="category__button">Wild Life</a>
+          <h2 class="post__title">
+            <a href="posts.html"
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel?</a
+            >
+          </h2>
+          <p class="post__body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            dolore numquam odit fuga at voluptatibus accusamus similique
+            voluptatum. Ipsum expedita nihil sapiente aperiam facilis laborum
+            repellat omnis nesciunt odio earum error culpa autem dolor debitis
+            quibusdam soluta animi incidunt veritatis, ex minus laboriosam dicta
+            optio voluptatibus! Officiis dignissimos maiores aliquid!
+          </p>
+          <div class="post__author">
+            <div class="post__author-avatar">
+              <img src="./images/avatar2.jpg" alt="" />
+            </div>
+            <div class="post__author-info">
+              <h5>By Pranay Singh</h5>
+              <small>December 28 2002 - 12:00pm</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--============================= FEATURED END =============================-->
+  </body>
 </html>
