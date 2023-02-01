@@ -119,7 +119,7 @@ nav button{
 
 .avatar{
     width:2.5rem;
-    aspect-ratio: 1/1;
+    /*aspect-ratio: 1/1;*/
     height: 2.5rem;
     border-radius: 50%;
     overflow: hidden;
@@ -152,11 +152,10 @@ nav button{
     visibility: hidden;
     opacity: 0;
     transition: var(--transition);
-
 }
 
 /*show nav ul when nav profile is hovered*/
-.nav__profile::hover>ul{
+.nav__profile:hover>ul{
     visibility: visible;
     opacity: 1;
 }
