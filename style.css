@@ -442,7 +442,7 @@ footer ul a:hover{
 
 /*--============================= EMPTY PAGE =============================--*/
 .empty__page{
-    height: 100vh;
+    height: 120vh;
     display: grid;
     place-content: center;
     padding-left: 3rem;
