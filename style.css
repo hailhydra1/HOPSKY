@@ -1,4 +1,5 @@
-:root {
+:root 
+{
     --color-primary: #6f6af8;
     --color-primary-light: hsl(242, 91%, 69%, 18%);
     --color-primary-variant: #5854c7;
@@ -170,6 +171,36 @@ nav button{
 .nav__profile ul li:last-child a{
     background: var(--color-red);
     color: var(--color-bg);
+}
+
+/*--============================MEET THE TEAM=========================--*/
+.team__container{
+    text-align: center;
+    font-size:2.3rem;
+    color: whitesmoke;
+    margin-top: 10rem;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+/*--=======================RESUME ============================--*/
+.resume__container{
+    gap: 1rem;
+    margin-top: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.resume__container li{
+    list-style: square;
+}
+
+.resume__socials{
+    margin-inline: auto;
+    width: fit-content;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.2rem;
 }
 
 /*--============================= CATEGORY BUTTON =============================--*/
@@ -411,9 +442,12 @@ footer ul a:hover{
 
 /*--============================= EMPTY PAGE =============================--*/
 .empty__page{
-    height: 70vh;
+    height: 120vh;
     display: grid;
     place-content: center;
+    padding-left: 3rem;
+    padding-right: 5rem;
+    text-align: center;
 }
 
 /*--============================= GENERAL FORM(FOR EVERY FORM PRESENT ON THE WEBSITE) =============================--*/
@@ -824,3 +858,4 @@ input,textarea,select{
         display: none;
     }
 }
+
