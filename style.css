@@ -497,7 +497,9 @@ footer ul a:hover{
 }
 
 /*--============================= BLOG =============================--*/
-
+.search__bar-container{
+    width: 60%;
+}
 
 
 /*--============================= MEDIA QUERIES (SMALL DEVICES) =============================--*/
@@ -538,4 +540,10 @@ footer ul a:hover{
         align-items: center;
         gap: 2rem;
     }
+
+    /*--============================= BLOG =============================--*/
+    .search__bar-container{
+        width: var(--container-width-md);
 }
+}
+
